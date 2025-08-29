@@ -2,6 +2,7 @@ package io.github.asakura2811.industrialmachine;
 
 import com.mojang.logging.LogUtils;
 import io.github.asakura2811.industrialmachine.block.ModBlocks;
+import io.github.asakura2811.industrialmachine.item.ModCreativeModeTabs;
 import io.github.asakura2811.industrialmachine.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class IndustrialMachine {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
     }
