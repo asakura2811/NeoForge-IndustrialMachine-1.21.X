@@ -1,7 +1,10 @@
 package io.github.asakura2811.industrialmachine;
 
 import com.mojang.logging.LogUtils;
+import io.github.asakura2811.industrialmachine.block.ModBlocks;
+import io.github.asakura2811.industrialmachine.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -22,9 +25,13 @@ public class IndustrialMachine {
 
     public IndustrialMachine(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
-        NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        NeoForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
@@ -40,7 +47,21 @@ public class IndustrialMachine {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.RAW_TIN);
+            event.accept(ModItems.TIN_DUST);
+        }
 
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TIN_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+        }
     }
 
     @SubscribeEvent

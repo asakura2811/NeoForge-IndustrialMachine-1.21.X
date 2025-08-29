@@ -1,0 +1,10 @@
+{
+  "item.industrialmachine.tin_ingot": "Tin Ingot",
+  "item.industrialmachine.raw_tin": "Raw Tin",
+  "item.industrialmachine.tin_dust": "Tin Dust",
+
+  "block.industrialmachine.tin_block": "Block of Tin",
+  "block.industrialmachine.raw_tin_block": "Block of Raw Tin",
+  "block.industrialmachine.tin_ore": "Tin Ore",
+  "block.industrialmachine.deepslate_tin_ore": "Deepslate Tin Ore"
+}

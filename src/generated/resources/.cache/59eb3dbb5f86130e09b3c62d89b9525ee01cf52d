@@ -1,0 +1,5 @@
+// 1.21.1	2025-08-29T15:27:36.4263574	Loot Tables
+1c5effaaaaf5b7d64855a3b09318b806d7b9231e data/industrialmachine/loot_table/blocks/deepslate_tin_ore.json
+75ccbd7f20fed079f456f4f82566e9e1a0f3fc50 data/industrialmachine/loot_table/blocks/raw_tin_block.json
+bad3ed050357007dd5b720588b84fc53edf99cd0 data/industrialmachine/loot_table/blocks/tin_block.json
+b6f7a0d12cf964faf3a9af00ebd7df8fffecd204 data/industrialmachine/loot_table/blocks/tin_ore.json
