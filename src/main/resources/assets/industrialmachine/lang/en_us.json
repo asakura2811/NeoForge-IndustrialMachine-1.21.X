@@ -6,5 +6,6 @@
   "block.industrialmachine.tin_block": "Block of Tin",
   "block.industrialmachine.raw_tin_block": "Block of Raw Tin",
   "block.industrialmachine.tin_ore": "Tin Ore",
-  "block.industrialmachine.deepslate_tin_ore": "Deepslate Tin Ore"
+  "block.industrialmachine.deepslate_tin_ore": "Deepslate Tin Ore",
+  "creativetab.industrialmachine.industrialmachine_tab": "Industrial Machine"
 }
