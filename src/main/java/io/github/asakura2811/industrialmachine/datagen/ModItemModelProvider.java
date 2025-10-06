@@ -17,5 +17,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TIN_INGOT.get());
         basicItem(ModItems.TIN_DUST.get());
         basicItem(ModItems.RAW_TIN.get());
+        basicItem(ModItems.STEEL_INGOT.get());
+        basicItem(ModItems.BRONZE_DUST.get());
+        basicItem(ModItems.BRONZE_INGOT.get());
+        basicItem(ModItems.IRON_DUST.get());
+        basicItem(ModItems.GOLD_DUST.get());
+        basicItem(ModItems.COPPER_DUST.get());
     }
 }

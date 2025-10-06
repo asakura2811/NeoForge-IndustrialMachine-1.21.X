@@ -1,3 +1,7 @@
-// 1.21.1	2025-08-29T15:27:36.4273586	Tags for minecraft:block mod id industrialmachine
-6849089403edc52b51e73f3c09674f237b9805ff data/minecraft/tags/block/mineable/pickaxe.json
-6849089403edc52b51e73f3c09674f237b9805ff data/minecraft/tags/block/needs_stone_tool.json
+// 1.21.1	2025-10-05T15:01:01.6230091	Tags for minecraft:block mod id industrialmachine
+6fb8aca7ef5028e311568b86da9fcfe8a84b99c9 data/c/tags/block/ores.json
+17563059b0c1a7ada4c04592cb39b9f7cd307b7a data/c/tags/block/ore_bearing_ground/deepslate.json
+95d1454c0b66d59b0dba5fe4da0d9a1cbc82ef9c data/c/tags/block/ore_bearing_ground/stone.json
+a606d6df7f11dbc5dfcfa5984078b40a278a080b data/minecraft/tags/block/mineable/pickaxe.json
+852ffe8de46b03a02b70405f2c45c06bcac90ac7 data/minecraft/tags/block/needs_iron_tool.json
+ca6e76ab285156126d12791fd19a9b197fc8a7ef data/minecraft/tags/block/needs_stone_tool.json

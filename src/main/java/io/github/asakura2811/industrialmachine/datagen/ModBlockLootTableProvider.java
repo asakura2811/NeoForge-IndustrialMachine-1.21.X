@@ -25,10 +25,15 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        //Self Drops
         dropSelf(ModBlocks.TIN_BLOCK.get());
         dropSelf(ModBlocks.RAW_TIN_BLOCK.get());
-        dropSelf(ModBlocks.TIN_ORE.get());
+        dropSelf(ModBlocks.CRUSHER.get());
+        dropSelf(ModBlocks.STEEL_BLOCK.get());
+        dropSelf(ModBlocks.STEEL_CASING.get());
+        dropSelf(ModBlocks.BRONZE_BLOCK.get());
         dropSelf(ModBlocks.DEEPSLATE_TIN_ORE.get());
+        dropSelf(ModBlocks.TIN_ORE.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

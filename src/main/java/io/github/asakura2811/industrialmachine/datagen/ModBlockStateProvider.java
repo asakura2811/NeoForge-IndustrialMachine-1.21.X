@@ -18,6 +18,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.RAW_TIN_BLOCK);
         blockWithItem(ModBlocks.TIN_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_TIN_ORE);
+        blockWithItem(ModBlocks.CRUSHER);
+        blockWithItem(ModBlocks.STEEL_BLOCK);
+        blockWithItem(ModBlocks.STEEL_CASING);
+        blockWithItem(ModBlocks.BRONZE_BLOCK);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

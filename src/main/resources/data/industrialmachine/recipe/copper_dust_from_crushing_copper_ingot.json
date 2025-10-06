@@ -1,0 +1,9 @@
+{
+  "type": "industrialmachine:crushing",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "industrialmachine:copper_dust"
+  }
+}

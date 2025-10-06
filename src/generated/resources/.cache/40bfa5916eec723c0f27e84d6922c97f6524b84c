@@ -1,4 +1,10 @@
-// 1.21.1	2025-08-28T16:06:52.6251036	Item Models: industrialmachine
+// 1.21.1	2025-10-05T15:01:01.6210088	Item Models: industrialmachine
+952d292dcf65b06772c199240b3764b4512ff939 assets/industrialmachine/models/item/bronze_dust.json
+5aa51f4a415e8cbe9dbba2ea4ebe6461d3ef74f2 assets/industrialmachine/models/item/bronze_ingot.json
+a10c2698759c3633d18cf0369eb1532c4c0948af assets/industrialmachine/models/item/copper_dust.json
+830d5ce2394bbd1ecfcf3e0d9c77b3d456876c12 assets/industrialmachine/models/item/gold_dust.json
+c5178a9a915fdbda6f2258d554ad8c715202c30f assets/industrialmachine/models/item/iron_dust.json
 91584c548e63b07a7205a5dd5958239ba9d89822 assets/industrialmachine/models/item/raw_tin.json
+e9204363115e5933496008a246faf07bc7b2281d assets/industrialmachine/models/item/steel_ingot.json
 d2d197608078aa6c0dc8ea15d7b73a6740757b5c assets/industrialmachine/models/item/tin_dust.json
 4df179e52fc7bc5f52e1d039f583025974b6b4dc assets/industrialmachine/models/item/tin_ingot.json

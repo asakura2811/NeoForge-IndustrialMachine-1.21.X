@@ -1,0 +1,9 @@
+{
+  "type": "industrialmachine:crushing",
+  "ingredient": {
+    "item": "industrialmachine:bronze_ingot"
+  },
+  "result": {
+    "id": "industrialmachine:bronze_dust"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item.industrialmachine.tin_ingot": "錫インゴット",
+  "item.industrialmachine.raw_tin": "錫の原石",
+  "item.industrialmachine.tin_dust": "錫の粉",
+  "item.industrialmachine.steel_ingot": "鋼鉄インゴット",
+  "item.industrialmachine.bronze_ingot": "青銅インゴット",
+  "item.industrialmachine.copper_dust": "銅の粉",
+  "item.industrialmachine.iron_dust": "鉄の粉",
+  "item.industrialmachine.gold_dust": "金の粉",
+  "item.industrialmachine.bronze_dust": "青銅の粉",
+
+  "block.industrialmachine.tin_block": "錫ブロック",
+  "block.industrialmachine.steel_block": "鋼鉄ブロック",
+  "block.industrialmachine.steel_casing": "鋼鉄ケーシング",
+  "block.industrialmachine.raw_tin_block": "錫の原石ブロック",
+  "block.industrialmachine.bronze_block": "青銅ブロック",
+  "block.industrialmachine.tin_ore": "錫鉱石",
+  "block.industrialmachine.deepslate_tin_ore": "深層錫鉱石",
+  "block.industrialmachine.crusher": "粉砕機",
+
+  "creativetab.industrialmachine.industrialmachine_tab": "Industrial Machine"
+}

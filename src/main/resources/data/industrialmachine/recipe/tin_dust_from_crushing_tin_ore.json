@@ -1,0 +1,10 @@
+{
+  "type": "industrialmachine:crushing",
+  "ingredient": {
+    "item": "industrialmachine:tin_ore"
+  },
+  "result": {
+    "id": "industrialmachine:tin_dust",
+    "count": 2
+  }
+}

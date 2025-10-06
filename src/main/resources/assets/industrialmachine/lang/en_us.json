@@ -2,10 +2,21 @@
   "item.industrialmachine.tin_ingot": "Tin Ingot",
   "item.industrialmachine.raw_tin": "Raw Tin",
   "item.industrialmachine.tin_dust": "Tin Dust",
+  "item.industrialmachine.steel_ingot": "Steel Ingot",
+  "item.industrialmachine.bronze_ingot": "Bronze Ingot",
+  "item.industrialmachine.copper_dust": "Copper Dust",
+  "item.industrialmachine.iron_dust": "Iron Dust",
+  "item.industrialmachine.gold_dust": "Gold Dust",
+  "item.industrialmachine.bronze_dust": "Bronze Dust",
 
   "block.industrialmachine.tin_block": "Block of Tin",
+  "block.industrialmachine.steel_block": "Block of Steel",
+  "block.industrialmachine.steel_casing": "Steel Casing",
   "block.industrialmachine.raw_tin_block": "Block of Raw Tin",
+  "block.industrialmachine.bronze_block": "Block of Bronze",
   "block.industrialmachine.tin_ore": "Tin Ore",
   "block.industrialmachine.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.industrialmachine.crusher": "Crusher",
+
   "creativetab.industrialmachine.industrialmachine_tab": "Industrial Machine"
 }

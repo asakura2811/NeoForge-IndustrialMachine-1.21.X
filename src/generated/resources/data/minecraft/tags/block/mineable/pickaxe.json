@@ -3,6 +3,10 @@
     "industrialmachine:tin_block",
     "industrialmachine:raw_tin_block",
     "industrialmachine:tin_ore",
-    "industrialmachine:deepslate_tin_ore"
+    "industrialmachine:deepslate_tin_ore",
+    "industrialmachine:crusher",
+    "industrialmachine:steel_block",
+    "industrialmachine:steel_enclosure",
+    "industrialmachine:bronze_block"
   ]
 }

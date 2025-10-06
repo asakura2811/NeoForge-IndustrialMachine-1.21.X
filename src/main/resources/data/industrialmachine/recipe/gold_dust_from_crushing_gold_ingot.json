@@ -1,0 +1,9 @@
+{
+  "type": "industrialmachine:crushing",
+  "ingredient": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "industrialmachine:gold_dust"
+  }
+}

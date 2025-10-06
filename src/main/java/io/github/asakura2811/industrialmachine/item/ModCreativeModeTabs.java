@@ -19,13 +19,30 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.TIN_INGOT.get()))
             .title(Component.translatable("creativetab.industrialmachine.industrialmachine_tab"))
             .displayItems((itemDisplayParameters, output) -> {
+                output.accept(ModItems.BRONZE_INGOT);
+                output.accept(ModItems.STEEL_INGOT);
                 output.accept(ModItems.TIN_INGOT);
-                output.accept(ModItems.RAW_TIN);
+
+                output.accept(ModItems.BRONZE_DUST);
+                output.accept(ModItems.COPPER_DUST);
+                output.accept(ModItems.GOLD_DUST);
+                output.accept(ModItems.IRON_DUST);
                 output.accept(ModItems.TIN_DUST);
-                output.accept(ModBlocks.TIN_BLOCK);
+
+                output.accept(ModItems.RAW_TIN);
+
                 output.accept(ModBlocks.RAW_TIN_BLOCK);
+
+                output.accept(ModBlocks.BRONZE_BLOCK);
+                output.accept(ModBlocks.STEEL_BLOCK);
+                output.accept(ModBlocks.TIN_BLOCK);
+
                 output.accept(ModBlocks.TIN_ORE);
                 output.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+
+                output.accept(ModBlocks.STEEL_CASING);
+
+                output.accept(ModBlocks.CRUSHER);
             }).build());
 
     public static void register (IEventBus eventBus) {
